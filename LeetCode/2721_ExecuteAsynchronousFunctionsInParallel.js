@@ -11,6 +11,7 @@ var promiseAll = function(functions) {
 
     return Promise.all(functionsAray);   
 }
+
 function aux(f){
     return new Promise((resolve, reject) => {
         resolve(f)
